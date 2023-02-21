@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    >
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Essential에 오신걸"
+        android:textSize="27dp"
+        android:textColor="#000000"
+        android:layout_marginTop="110dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="65dp"
+        android:text="환영해요!"
+        android:textSize="27dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/mEmail2"
+        android:hint="Email"
+        android:background="@drawable/border_layout"
+        android:elevation="2dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/mPassword2"
+        android:hint="Password"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_layout"
+        android:elevation="2dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mLogin"
+        android:layout_marginTop="10dp"
+        android:text="로그인하기" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="구글 로그인"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/SignIn_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kakao_login_large_wide__1_"
+        android:visibility="gone"/>
+
+
+    <Button
+        android:id="@+id/SignOut_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그아웃"
+        android:visibility="invisible"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아이디가 없으신가요?"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mRegister"
+            android:layout_marginLeft="5dp"
+            android:textColor="#0174DF"
+            android:text="가입하기"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

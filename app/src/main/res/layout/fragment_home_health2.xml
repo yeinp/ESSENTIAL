@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.essential03.com.essential.essential03.FragmentHomeHealth1Activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="#819FF7"
+        android:padding="25dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="복근을 향하여..."
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="매일 꾸준한 팔굽혀펴기를 통해"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="더욱 건강한 몸으로"/>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/exercise"
+            android:layout_marginLeft="70dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="00:00"
+        android:textColor="@android:color/black"
+        android:textSize="60sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_start_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시작"
+        android:layout_gravity="center"
+        android:background="@drawable/border_layout"/>
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="초기화"
+        android:background="@drawable/border_layout"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        tools:visibility="visible" />
+
+
+
+
+    <ImageView
+        android:id="@+id/pushup"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:text="운동 챌린지"/>
+
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="230dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border_layout3"
+        android:drawableTop="@drawable/workout"
+        android:text="오늘의 운동 3가지 시작!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:id="@+id/linear_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/linear_border"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="176dp"
+            android:layout_height="match_parent"
+            android:layout_margin="18dp"
+            android:text="스트레칭 시작하기"
+            android:textColor="#000000"
+            android:textSize="16dp"></TextView>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:text="START!!" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/linear_border"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="176dp"
+            android:layout_height="match_parent"
+            android:layout_margin="18dp"
+            android:text="팔굽혀펴기 시작하기"
+            android:textColor="#000000"
+            android:textSize="16dp"></TextView>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:text="START!!" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/linear_border"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="176dp"
+            android:layout_height="match_parent"
+            android:layout_margin="18dp"
+            android:text="물마시기 시작하기"
+            android:textColor="#000000"
+            android:textSize="16dp"></TextView>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:text="START!!" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

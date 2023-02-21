@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.essential03.edu.example.essential03.english" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="#F5DA81"
+        android:padding="25dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="영어 단어 외우기"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="매일 단어를 저장해"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="나만의 단어장을 만들어 보세요"/>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/english"
+            android:layout_marginLeft="60dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/inputToDo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:hint="영단어 입력"
+            android:inputType="textMultiLine"
+            android:elevation="2dp"
+            android:background="@drawable/border_layout"/>
+
+        <EditText
+            android:id="@+id/inputToDo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:hint="뜻 입력"
+            android:inputType="textMultiLine"
+            android:elevation="2dp"
+            android:background="@drawable/border_layout" />
+
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="저장"
+            android:layout_marginTop="10dp"
+            app:backgroundTint="#F5DA81" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:padding="20dp"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="685dp">
+
+    </FrameLayout>
+
+
+</LinearLayout>

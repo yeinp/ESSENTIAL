@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">essential</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="naver_client_id">rVRL2dqlQBl0X3H3i16s</string>
+    <string name="naver_client_secret">jvHmfbLIzE</string>
+    <string name="naver_client_name">essential</string>
+
+</resources>

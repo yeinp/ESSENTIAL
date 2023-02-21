@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/profile" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Hi!"
+                        android:textColor="#000000"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:text="닉네임"
+                        android:textColor="#0174DF"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:text="당신이 원하는 모습은 무엇인가요?" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="매일 챌린지를 달성하고" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="원하는 나로 거듭나세요!" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnWorkout"
+                android:layout_width="340dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_round"
+                android:backgroundTint="#CD37B7F1"
+                android:drawableRight="@drawable/healthyhabbit1"
+                android:text="건강한 몸 만들기\n스트레칭과 운동을 통해\n건강한 몸을 만들어 보세요!"
+                android:textColor="#000000"
+                android:textStyle="bold">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnEnglish"
+                android:layout_width="340dp"
+                android:layout_height="138dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_round"
+                android:backgroundTint="#DAFB7A3D"
+                android:drawableLeft="@drawable/englishstudy1"
+                android:text="영어 정복\nTOEIC 900+를 향해"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnAssignment"
+                android:layout_width="340dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/button_round"
+                android:backgroundTint="#8FD49AF3"
+                android:drawableRight="@drawable/assignment1"
+                android:text="과탑이 되고 싶어\n오늘 배운 키워드를 정리해보세요!"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+</LinearLayout>
