@@ -6,6 +6,6 @@
 
 한달 간 앱 내의 3가지 챌린지를 통해 "갓생"으로 한발짝 나아갈 수 있게 만들어준다.
 
-java를 사용하였다.
+java, 안드로이드 스튜디오를 사용해 개발하였다.
 
 https://play.google.com/store/apps/details?id=edu.sungshin.essential
